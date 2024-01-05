@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using NameSpace.Deneme;
+
 
 namespace NameSpace
 {
@@ -15,6 +17,7 @@ namespace NameSpace
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            CustomClass customClass = new();
         }
     }
 
