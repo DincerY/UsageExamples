@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSpace", "NameSpace\Name
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingNameSpace", "UsingNameSpace\UsingNameSpace.csproj", "{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{39903DB6-9A5E-4008-BC51-A609186AF62C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39903DB6-9A5E-4008-BC51-A609186AF62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39903DB6-9A5E-4008-BC51-A609186AF62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39903DB6-9A5E-4008-BC51-A609186AF62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39903DB6-9A5E-4008-BC51-A609186AF62C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

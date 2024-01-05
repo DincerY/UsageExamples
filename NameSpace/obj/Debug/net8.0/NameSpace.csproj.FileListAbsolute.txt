@@ -1,0 +1,15 @@
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\bin\Debug\net8.0\NameSpace.exe
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\bin\Debug\net8.0\NameSpace.deps.json
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\bin\Debug\net8.0\NameSpace.runtimeconfig.json
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\bin\Debug\net8.0\NameSpace.dll
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\bin\Debug\net8.0\NameSpace.pdb
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\NameSpace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\NameSpace.AssemblyInfoInputs.cache
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\NameSpace.AssemblyInfo.cs
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\NameSpace.csproj.CoreCompileInputs.cache
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\NameSpace.sourcelink.json
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\NameSpace.dll
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\refint\NameSpace.dll
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\NameSpace.pdb
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\NameSpace.genruntimeconfig.cache
+C:\Users\dince\RiderProjects\UsageExamples\NameSpace\obj\Debug\net8.0\ref\NameSpace.dll
