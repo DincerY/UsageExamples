@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSpace", "NameSpace\NameSpace.csproj", "{E688614D-16F3-429D-B140-A737668601B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingNameSpace", "UsingNameSpace\UsingNameSpace.csproj", "{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E688614D-16F3-429D-B140-A737668601B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E688614D-16F3-429D-B140-A737668601B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E688614D-16F3-429D-B140-A737668601B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E688614D-16F3-429D-B140-A737668601B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3923C5B0-99AB-47D7-B6C9-0EA6868AC4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
