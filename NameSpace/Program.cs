@@ -53,17 +53,3 @@ namespace NameSpace
 }
 
 
-namespace System
-{
-    namespace System.Reflection
-    {
-        namespace System.Reflection.Metadata
-        {
-            namespace System.Reflection.Metadata.Ecma335
-            {
-                
-            }
-        }
-    }
-}
-
