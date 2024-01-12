@@ -1,34 +1,79 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+Urun ciklet = new Urun(10001, "Tipitipitip", 1.20, 35);
+ciklet.StokAzaldi += ciklet_StokAzaldi;
 
-void Deneme(object? obj,string argument)
+for (int i = 0; i <5; i++)
 {
-    Console.WriteLine("Deneme");
-}
-void Deneme2(object? obj,string argument)
-{
-    Console.WriteLine("Deneme2");
-}
-void Deneme3(object? obj,string argument)
-{
-    Console.WriteLine("Deneme3");
-}
-void Deneme4(object? obj,string argument)
-{
-    Console.WriteLine("Deneme4");
+    ciklet.StokMiktari -= 7;
+    Thread.Sleep(600);
+    Console.WriteLine(ciklet.Ad + " için stok miktarı " + ciklet.StokMiktari.ToString());
 }
 
-object a = null;
+static void ciklet_StokAzaldi()
+{
+    Console.WriteLine("Stok miktarı 10 değerinin altında...Alarrrmmm!");
+}
 
-
-
-
-
-EventHandler<string> eventHandler = new(Deneme);
-eventHandler+=Deneme2;
-eventHandler+=Deneme3;
-eventHandler+=Deneme4;
-
-
-eventHandler.Invoke(a,"123");
+delegate void StokAzaldiEventHandler();
+ 
+class Urun
+{
+    private int id;
+    private string ad;
+    private double birimFiyat;
+    private int stokMiktari;
+ 
+    public event StokAzaldiEventHandler StokAzaldi;
+     
+    public int StokMiktari
+    {
+        get { return stokMiktari; }
+        set {
+            stokMiktari = value; 
+            if (value < 10 && StokAzaldi != null)
+                StokAzaldi(); 
+        }
+    }
+ 
+    public double BirimFiyat
+    {
+        get { return birimFiyat; }
+        set { birimFiyat = value; }
+    }
+ 
+    public string Ad
+    {
+        get { return ad; }
+        set { ad = value; }
+    }
+ 
+    public int Id
+    {
+        get { return id; }
+        set { id = value; }
+    }
+ 
+    public Urun(int idsi, string adi, double fiyati, int stokSayisi)
+    {
+        Id = idsi;
+        Ad = adi;
+        BirimFiyat = fiyati;
+        StokMiktari = stokSayisi;
+    }
+}
+//Event Argument
+class StokAzaldiEventArgs:EventArgs
+{
+    private int guncelStokMiktari;
+ 
+    public int GuncelStokMiktari
+    {
+        get { return guncelStokMiktari; }
+        set { guncelStokMiktari = value; }
+    }
+    public StokAzaldiEventArgs(int gStk)
+    {
+        GuncelStokMiktari = gStk;
+    }
+}

@@ -14,6 +14,7 @@ void Topla(int sayi,int sayi2)
 }
 
 MyDelegateHandler yazdirHandler = new MyDelegateHandler(Yazdir);
+MyDelegateHandler yazdirHandler2 = Yazdir;
 MyDelegateHandler toplaHandler = new MyDelegateHandler(Topla);
 
 //iki şekilde fonksiyonu tetikleyebiliyorum.
