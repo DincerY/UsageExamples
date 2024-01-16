@@ -1,79 +1,92 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Urun ciklet = new Urun(10001, "Tipitipitip", 1.20, 35);
-ciklet.StokAzaldi += ciklet_StokAzaldi;
-
-for (int i = 0; i <5; i++)
+﻿
+MyApplication application = new(10);
+application.MyDelegateHandler += EsikAsimi;
+Console.WriteLine("ekleme yapmak icin a ya basin");
+while (Console.ReadKey(true).KeyChar == 'a')
 {
-    ciklet.StokMiktari -= 7;
-    Thread.Sleep(600);
-    Console.WriteLine(ciklet.Ad + " için stok miktarı " + ciklet.StokMiktari.ToString());
+   application.Add();
+   Console.WriteLine("Bir adet urun eklendi");
 }
 
-static void ciklet_StokAzaldi()
+//Bu metod aslında abone olunan sınıf içerisinde bulunan ve bir ==>
+//olay meydana geldiğinde ne yapılacağını bildiğimiz method
+static void EsikAsimi(object sender,EsikAsimiEventArgs args)
 {
-    Console.WriteLine("Stok miktarı 10 değerinin altında...Alarrrmmm!");
+    Console.WriteLine($"Esik asim sayisi : {args.Sayi}");
 }
 
-delegate void StokAzaldiEventHandler();
- 
-class Urun
+/// <summary>
+/// Bu delegate bizim olayımızın hangi metodu çalıştıracağını bilmek için kullanacağı bir temsilci
+/// </summary>
+public delegate void MyDelegateHandler(object sender,EsikAsimiEventArgs e);
+/// <summary>
+/// Bu sınıf benim olayımın sahibi olan yani bir nevi publisher sınıfım
+/// </summary>
+public class MyApplication
 {
-    private int id;
-    private string ad;
-    private double birimFiyat;
-    private int stokMiktari;
- 
-    public event StokAzaldiEventHandler StokAzaldi;
-     
-    public int StokMiktari
+    /// <summary>
+    /// Field tanımlamaları
+    /// </summary>
+    private int sayi;
+    private int esik;
+
+    public MyApplication(int a)
     {
-        get { return stokMiktari; }
-        set {
-            stokMiktari = value; 
-            if (value < 10 && StokAzaldi != null)
-                StokAzaldi(); 
+        esik = a;
+    }
+    /// <summary>
+    /// Klavyeden girilen değer a olduğunda ekleme yapacak ve sayi değeri esik değerini geçerse event çağırılacaktır.
+    /// </summary>
+    public void Add()
+    {
+        sayi++;
+        if (sayi > esik)
+        {
+            EsikAsimiEventArgs args = new EsikAsimiEventArgs(sayi);
+            EsikAsimiOldugunda(this,args);
         }
     }
- 
-    public double BirimFiyat
+
+    /// <summary>
+    /// Herhangi bir eşik aşımı meydana geldiğinde eventi tetikleyen yani hangi metodu tutuyorsak onu çalıştıran yapı
+    /// Bu örnek için başta tanımlanan EsikAsimş adlı metod.
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="args"></param>
+    public void EsikAsimiOldugunda(object sender,EsikAsimiEventArgs args)
     {
-        get { return birimFiyat; }
-        set { birimFiyat = value; }
+        MyDelegateHandler.Invoke(sender,args);
     }
- 
-    public string Ad
-    {
-        get { return ad; }
-        set { ad = value; }
-    }
- 
-    public int Id
-    {
-        get { return id; }
-        set { id = value; }
-    }
- 
-    public Urun(int idsi, string adi, double fiyati, int stokSayisi)
-    {
-        Id = idsi;
-        Ad = adi;
-        BirimFiyat = fiyati;
-        StokMiktari = stokSayisi;
-    }
+
+    /// <summary>
+    /// Buda bizim eventimiz. MyDelegateHandler yapısının aslında bir delegate olduğunu unutmayalım.
+    /// </summary>
+    public event MyDelegateHandler MyDelegateHandler;
+
+
 }
-//Event Argument
-class StokAzaldiEventArgs:EventArgs
+
+/// <summary>
+/// Bu sınıfta event içinden taşınacak verileri belirlediğimiz bir sınıf
+/// </summary>
+public class EsikAsimiEventArgs : EventArgs
 {
-    private int guncelStokMiktari;
- 
-    public int GuncelStokMiktari
+    private int sayi;
+
+    public int Sayi
     {
-        get { return guncelStokMiktari; }
-        set { guncelStokMiktari = value; }
+        get
+        {
+            return sayi;
+        }
+        set
+        {
+            sayi = value;
+        }
     }
-    public StokAzaldiEventArgs(int gStk)
+
+    public EsikAsimiEventArgs(int sayi)
     {
-        GuncelStokMiktari = gStk;
+        Sayi = sayi;
     }
 }
