@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "Events\Events.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{C30F6AB9-94FF-47CE-9CD5-BB7095F5239B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualKeyword", "VirtualKeyword\VirtualKeyword.csproj", "{93E0B69F-3E7A-4CB7-9629-D08975CD0CFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{C30F6AB9-94FF-47CE-9CD5-BB7095F5239B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30F6AB9-94FF-47CE-9CD5-BB7095F5239B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30F6AB9-94FF-47CE-9CD5-BB7095F5239B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E0B69F-3E7A-4CB7-9629-D08975CD0CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E0B69F-3E7A-4CB7-9629-D08975CD0CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E0B69F-3E7A-4CB7-9629-D08975CD0CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E0B69F-3E7A-4CB7-9629-D08975CD0CFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
