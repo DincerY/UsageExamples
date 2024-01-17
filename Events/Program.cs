@@ -90,3 +90,23 @@ public class EsikAsimiEventArgs : EventArgs
         Sayi = sayi;
     }
 }
+
+
+public class UsingEventHandler
+{
+    public event EventHandler<int> myEvent;
+
+    public void MyEventMethod(int a)
+    {
+        return;
+    }
+    public UsingEventHandler(EventHandler<int> a)
+    {
+        myEvent = a;
+    }
+
+    public void UseEvent()
+    {
+        myEvent.Invoke(1,10);
+    }
+}

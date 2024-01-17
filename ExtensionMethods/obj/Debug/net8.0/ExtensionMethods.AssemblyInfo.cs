@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("VirtualKeyword")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ExtensionMethods")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("VirtualKeyword")]
-[assembly: System.Reflection.AssemblyTitleAttribute("VirtualKeyword")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89c32888a6be055c299272490eb72f3d648033c2")]
+[assembly: System.Reflection.AssemblyProductAttribute("ExtensionMethods")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ExtensionMethods")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
