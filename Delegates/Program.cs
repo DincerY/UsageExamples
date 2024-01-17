@@ -1,4 +1,36 @@
 ﻿// See https://aka.ms/new-console-template for more information
+FuncDelegate funcDelegate = new();
+#region FuncDelegate
+public class FuncDelegate
+{
+    private delegate void MyDelegate(int a);
+
+    private delegate TH MyFunc<in T, out TH>(T TDeneme);
+
+    private delegate void GenericDelegate<T>(T TDeneme);
+
+    public int DelegatedMethod<T>(T a)
+    {
+        return 0;
+    }
+
+    private void DelegatedMethodDifferent<T>(T a)
+    {
+        return;
+    }
+
+    //Generic olan delegateler hazır delegateler olduğundan new operatörüne ihtiyaç duymazlar.
+    public void AddMethod()
+    {
+        MyFunc<int, int> myFunc = DelegatedMethod;
+        GenericDelegate<int> genericDelegate = DelegatedMethodDifferent;
+    }
+
+}
+
+#endregion
+
+
 
 #region Kullanimi
 
