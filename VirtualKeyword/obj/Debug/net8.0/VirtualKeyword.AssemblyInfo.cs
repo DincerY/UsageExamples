@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VirtualKeyword")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+449933eb76cfd99ea6adaa8f5da73a98b0cd0dec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("VirtualKeyword")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VirtualKeyword")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
