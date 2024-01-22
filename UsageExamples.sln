@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualKeyword", "VirtualKe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{79254F70-46D7-4898-A564-6E06A2620046}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceProviderExampleAndUsage", "ServiceProviderExampleAndUsage\ServiceProviderExampleAndUsage.csproj", "{D675B68A-F681-4790-9D91-F642538F7BAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{79254F70-46D7-4898-A564-6E06A2620046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79254F70-46D7-4898-A564-6E06A2620046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79254F70-46D7-4898-A564-6E06A2620046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D675B68A-F681-4790-9D91-F642538F7BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D675B68A-F681-4790-9D91-F642538F7BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D675B68A-F681-4790-9D91-F642538F7BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D675B68A-F681-4790-9D91-F642538F7BAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

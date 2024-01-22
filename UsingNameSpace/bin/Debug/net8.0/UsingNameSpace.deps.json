@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UsingNameSpace/1.0.0": {
+        "dependencies": {
+          "NameSpace": "1.0.0"
+        },
+        "runtime": {
+          "UsingNameSpace.dll": {}
+        }
+      },
+      "NameSpace/1.0.0": {
+        "runtime": {
+          "NameSpace.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UsingNameSpace/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NameSpace/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sNnhzUN//9CWBb4DXzKNc2kfA85qpOe10w8f0XNaQEs=",
+  "Source": "ServiceProviderExampleAndUsage",
+  "BasePath": "_content/ServiceProviderExampleAndUsage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
