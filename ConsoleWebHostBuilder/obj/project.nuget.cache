@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OpYL34fjoK9e7XXCULW2VpR6Co6Mv6eYxIaryjkVpSWe2xE0NlRBfNSXyFSo0hua8EuKsKsprj2EX0Z6LRIn+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dince\\RiderProjects\\UsageExamples\\ConsoleWebHostBuilder\\ConsoleWebHostBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dince\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\dince\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

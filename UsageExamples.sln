@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionUsage", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceScope", "ServiceScope\ServiceScope.csproj", "{DF22505D-014B-4A44-BC82-3C8E77AB02C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWebHostBuilder", "ConsoleWebHostBuilder\ConsoleWebHostBuilder.csproj", "{99831207-B2AD-4E50-9263-BFB3EBBF6FCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{DF22505D-014B-4A44-BC82-3C8E77AB02C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF22505D-014B-4A44-BC82-3C8E77AB02C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF22505D-014B-4A44-BC82-3C8E77AB02C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99831207-B2AD-4E50-9263-BFB3EBBF6FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99831207-B2AD-4E50-9263-BFB3EBBF6FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99831207-B2AD-4E50-9263-BFB3EBBF6FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99831207-B2AD-4E50-9263-BFB3EBBF6FCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
