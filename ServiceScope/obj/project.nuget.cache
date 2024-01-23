@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VRDZhqSfqbhPCOi1brzHCvk1MRw7M0AMUrKYFb4tO0hpcaa5sa4p84JN8AdXwqARlpKvw4SPahz532YrYIUtrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dince\\RiderProjects\\UsageExamples\\ServiceScope\\ServiceScope.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dince\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\dince\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
