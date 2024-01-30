@@ -1,0 +1,15 @@
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\bin\Debug\net8.0\RecordUsage.exe
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\bin\Debug\net8.0\RecordUsage.deps.json
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\bin\Debug\net8.0\RecordUsage.runtimeconfig.json
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\bin\Debug\net8.0\RecordUsage.dll
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\bin\Debug\net8.0\RecordUsage.pdb
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\RecordUsage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\RecordUsage.AssemblyInfoInputs.cache
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\RecordUsage.AssemblyInfo.cs
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\RecordUsage.csproj.CoreCompileInputs.cache
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\RecordUsage.sourcelink.json
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\RecordUsage.dll
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\refint\RecordUsage.dll
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\RecordUsage.pdb
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\RecordUsage.genruntimeconfig.cache
+C:\Users\dince\RiderProjects\UsageExamples\RecordUsage\obj\Debug\net8.0\ref\RecordUsage.dll
