@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWebHostBuilder", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordUsage", "RecordUsage\RecordUsage.csproj", "{6A0D122F-9342-4C51-B708-BAD94CC0ACF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWorkDesignPattern", "UnitOfWorkDesignPattern\UnitOfWorkDesignPattern.csproj", "{107647DD-C49B-44DF-8A4D-AC5FE5FC4D60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{6A0D122F-9342-4C51-B708-BAD94CC0ACF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A0D122F-9342-4C51-B708-BAD94CC0ACF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A0D122F-9342-4C51-B708-BAD94CC0ACF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107647DD-C49B-44DF-8A4D-AC5FE5FC4D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107647DD-C49B-44DF-8A4D-AC5FE5FC4D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107647DD-C49B-44DF-8A4D-AC5FE5FC4D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107647DD-C49B-44DF-8A4D-AC5FE5FC4D60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

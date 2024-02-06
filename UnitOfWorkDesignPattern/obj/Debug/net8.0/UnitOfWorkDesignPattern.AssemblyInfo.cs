@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RecordUsage")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("UnitOfWorkDesignPattern")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("RecordUsage")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RecordUsage")]
+[assembly: System.Reflection.AssemblyProductAttribute("UnitOfWorkDesignPattern")]
+[assembly: System.Reflection.AssemblyTitleAttribute("UnitOfWorkDesignPattern")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
